@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+}
+*{
+	box-sizing: border-box;
+}
+.carousel-inner{ 
+    background-color: black;
+}
+li a:hover{
+	background-color: blue;
+	color: white;
+}
+p a:hover{
+	background-color: blue;
+	color: white;
+	text-decoration: none;
+}
+.white{
+	color: white;
+	margin-top: 20px;
+}
+.white a{
+	border: 2px solid white;
+	color: white;
+	padding: 8px;
+	text-decoration: none;
+}
+.adjust-col{
+	margin-top: 13px;
+}
+.adjust-col p{
+	margin-left: -2%;
+}
+.adjust-col img{
+	width: 80%;
+	height: 80%;
+}
+.adjust-col img:hover{
+	background-color: black;
+}
+label, h1, h3, h4, h5,p{
+	font-style: italic;
+	font-family: 'Yoga',serif;
+	color: #613a61;
+	text-align: center;
+}
+.thumbnail{
+	background-color: lightgrey;
+	color: dimgrey;
+	width: 8%;
+	display:inline-grid;
+	margin-top: 2%;
+}
+.footer{
+	background-color: black;
+	text-align: center;
+	display: grid;
+	grid-template-rows: 100%;
+	grid-template-columns: 30% 25% 45%;
+	color:grey;
+	padding-top: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.sub a{
+	border:1px solid white;
+	text-decoration: none;
+	padding: 2%;
+}
